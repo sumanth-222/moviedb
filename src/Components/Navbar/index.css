@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.title {
+  color: rgb(81, 2, 105);
+  font-family: lobster;
+  margin-left: 10px;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: rgb(243, 251, 252);
+  flex-direction: column;
+}
+
+nav {
+  background-color: #555;
+  overflow: hidden;
+}
+
+.nav-title {
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  color: brown;
+  font-family: monospace;
+}
+
+.search-input {
+  height: 40px;
+  border-radius: 7px;
+  width: 300px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  margin-left: 100px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  font-weight: bold;
+}
+
+.nav-title-card {
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn2 {
+  background-color: pink;
+  color: black;
+  font-weight: bold;
+  border-width: 0px;
+  padding: 6px;
+  border-radius: 6px;
+  width: 70px;
+  height: 40px;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+}
+
+@media screen and (max-width: 426px) {
+  .nav-title {
+    font-size: 14px;
+  }
+  .search-input {
+    width: 200px;
+    margin-left: 20px;
+  }
+}

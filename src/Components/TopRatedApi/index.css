@@ -1,0 +1,18 @@
+.popular-lists {
+  display: flex;
+  flex-wrap: wrap;
+  background: linear-gradient(
+    to left,
+    pink,
+    rgb(82, 226, 245),
+    rgb(240, 169, 236)
+  );
+  margin: 0px;
+  align-items: center;
+}
+
+.home-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
